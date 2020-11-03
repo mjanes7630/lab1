@@ -25,42 +25,49 @@ in html
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
-        
         <header>
             Michael Janes
         </header>
         <hr/>
         <nav>
-            <a href="index.html"><strong>Home</strong></a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.php">Home</a>
+            <a href="about.php"><strong>About</strong></a>
+            <a href="contact.php">Contact</a>
         </nav>
         
         <br/><br/>
         
-        <main>
-            <figure>
-                <img src="img/Janes_Michael.jpg" alt="Picture of Michael Janes" width="302" heigth="403"/>
-                <!-- I understand it is better to edit it before uploading, but it was easier to just plug and play !-->
-            </figure>
+        <div id="content">
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Years Experience</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>Java</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>2</td>
+                </tr>
+                <tr class="table-row">
+                    <td>PHP</td>
+                    <td>1</td>
+                </tr>
+            </table>
             
-            <div>
-                Hello! <br/>
-                <p>Thank you for visiting my professional portfolio website.</p>
-                <p>I am a Software Engineer and have been recently hired at Acme Corporation.</p>
-                <p>Feel free to contact me!</p>
-                
-                <br/><br/>
-                
-                <h1>
-                    <em>"With ordinary talent and extrodinary <strong>perseverance</strong>, all things are attainable"</em>
-                </h1>
-                
-                <br/>
-                
-                -Thomas F. Buxton
-            </div>
-        </main>
+            <br/>
+            
+            <ul>
+                <li><span class="hobby">Dogs: I walk them.</span></li>
+                <li><span class="hobby">Games: I play them.</span></li>
+                <li><span class="hobby">Weights: I lift them.</span></li>
+                <li><span class="hobby">Ladies: I slay them ;)</span></li>
+            </ul>
+            
+        </div>
+        
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>

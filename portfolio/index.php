@@ -25,24 +25,42 @@ in html
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
+        
         <header>
             Michael Janes
         </header>
         <hr/>
         <nav>
-            <a href="index.html"><strong>Home</strong></a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.php"><strong>Home</strong></a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
         </nav>
         
         <br/><br/>
         
-        <div id="content">
+        <main>
+            <figure>
+                <img src="img/Janes_Michael.jpg" alt="Picture of Michael Janes" width="302" heigth="403"/>
+                <!-- I understand it is better to edit it before uploading, but it was easier to just plug and play !-->
+            </figure>
             
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4FflTjWK1Uc6uDB0Ro-7XeZNxRjhrx5CIYL4wRrzo7JYGPg/viewform?embedded=true" width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            
-        </div>
-        
+            <div>
+                Hello! <br/>
+                <p>Thank you for visiting my professional portfolio website.</p>
+                <p>I am a Software Engineer and have been recently hired at Acme Corporation.</p>
+                <p>Feel free to contact me!</p>
+                
+                <br/><br/>
+                
+                <h1>
+                    <em>"With ordinary talent and extrodinary <strong>perseverance</strong>, all things are attainable"</em>
+                </h1>
+                
+                <br/>
+                
+                -Thomas F. Buxton
+            </div>
+        </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
